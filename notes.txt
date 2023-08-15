@@ -5,6 +5,16 @@ fin - option to hit
 fin - have dealer and player receive cards
 met minimum requirements
 
+spicy options
+- lots of types of betting
+- deploy to netlify
+- styling
+
+Game instructions seem to differ than actual blackjack:
+- player only sees one card of dealer's
+- player hits before the dealer
+
+
 
 Setup 8/14
 classes
