@@ -1,0 +1,38 @@
+8/15
+fin - set facecards to 10 and ace to 1 or 11
+fin - give hand value
+fin - option to hit
+fin - have dealer and player receive cards
+met minimum requirements
+
+
+Setup 8/14
+classes
+- Game
+- player
+- dealer
+- card
+- deck
+
+card 
+- suit
+- value
+
+deck 
+- 52 cards, no duplicates
+- order
+
+dealer
+- gets 2 cards
+- automated play (hits until 17+)
+
+player
+- gets 2 cards
+- choice to hit
+
+Game
+- start game
+- dealer
+- player
+- player vs dealer
+- end game
