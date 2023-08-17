@@ -35,7 +35,7 @@ class Deck:
 
 # class for the player. The dealer is a sub-class of player.
 class Player:
-    def __init__(self, name='Nathan'):
+    def __init__(self, name='Harris'):
     # attributes
         # Initialize an empty list to store cards
         self.cards = []
@@ -133,7 +133,7 @@ class Game:
 Your total hand value is {self.player.hand_value}''')
             
         print(f'''    The dealer\'s faceup card is a {self.dealer.cards[1].value} of {self.dealer.cards[1].suit}''')
-        print(f'    The dealer\'s hidden card is a {self.dealer.cards[0].value} of {self.dealer.cards[0].suit}')
+        # print(f'    The dealer\'s hidden card is a {self.dealer.cards[0].value} of {self.dealer.cards[0].suit}')
 
     # ending scene depending on results of game
     # 4 options.
@@ -163,9 +163,6 @@ Your total hand value is {self.player.hand_value}''')
         # create instance of the deck and then shuffle
         self.deck = Deck()
         self.deck.shuffle()
-
-        # print the shuffled deck
-        print(self.deck)
 
         # give player and dealer 2 cards 
         # order: player, dealer, player, dealer
